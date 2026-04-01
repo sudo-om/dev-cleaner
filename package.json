@@ -1,0 +1,39 @@
+{
+  "name": "@__ompatil/dev-cleaner",
+  "version": "1.0.0",
+  "description": "CLI tool to clean node_modules, Python venvs, and Homebrew packages",
+  "type": "module",
+  "bin": {
+    "dev-cleaner": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "cleanup",
+    "node_modules",
+    "python",
+    "brew",
+    "disk-cleanup",
+    "developer-tools"
+  ],
+  "author": "__ompatil",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.3.2",
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^14.0.3",
+    "ora": "^9.3.0"
+  }
+}
