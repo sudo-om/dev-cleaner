@@ -53,7 +53,7 @@ dev-cleaner auto
 ## Author
 
 **Om Patil**
-- GitHub: [@ompatil](https://github.com/ompatil)
+- GitHub: [@sudo-om](https://github.com/sudo-om)
 
 ## License
 
